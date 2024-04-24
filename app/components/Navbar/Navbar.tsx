@@ -6,6 +6,7 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
+import Image from 'next/image';
 
 
 interface NavigationItem {
@@ -39,12 +40,12 @@ const Navbar = () => {
                             {/* LOGO */}
 
                             <div className="flex flex-shrink-0 items-center">
-                                <img
+                                <Image
                                     className="block h-40  w-40 lg:hidden"
                                     src={'/assets/logo/crafters.png'}
                                     alt="dsign-logo"
                                 />
-                                <img
+                                <Image
                                     className="hidden h-full w-56    lg:block"
                                     src={'/assets/logo/logo3.png'}
                                     alt="dsign-logo"
