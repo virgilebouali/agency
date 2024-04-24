@@ -108,7 +108,7 @@ export const Header = () => {
       Ils nous ont  <br /> confié leur croissance
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
-      Nous, en tant qu&apos;agence web, concevons des produits remarquables en utilisant les technologies et les cadres de travail les plus récents. Notre équipe est composée de développeurs et de designers passionnés qui excellent dans la création de produits exceptionnels.
+      Nous, en tant qu``&apos;``agence web, concevons des produits remarquables en utilisant les technologies et les cadres de travail les plus récents. Notre équipe est composée de développeurs et de designers passionnés qui excellent dans la création de produits exceptionnels.
       </p>
     </div>
   );
