@@ -11,7 +11,7 @@ const Banner = () => {
                     <div className="text-left">
                         <div className="flex flex-col">
                         <h1 className="text-4xl font-semibold text-navyblue sm:text-5xl  lg:text-6xl md:4px lh-56 mx-12 mt-12">
-                            L'agence Web 360° qui vous accompagne vers la <span className="text-blue-500"> performance</span>
+                            L&apos;agence Web 360° qui vous accompagne vers la <span className="text-blue-500"> performance</span>
 
                         </h1>
                      
