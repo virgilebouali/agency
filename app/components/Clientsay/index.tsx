@@ -1,8 +1,8 @@
 import Image from "next/image";
 
 const Clientsay = () => {
-    return (
-        <div className="mx-auto max-w-2xl py-40 px-4s sm:px-6 lg:max-w-7xl lg:px-8">
+    return ( 
+        <div className="mx-auto max-w-2xl py-40 px-4s sm:px-6 lg:max-w-7xl lg:px-8 bg-black">
             <div className="bg-image-what">
                 <h3 className='text-navyblue text-center text-4xl lg:text-6xl font-semibold'>Ce que nos clients disent de nous.</h3>
                 <h4 className="text-lg font-normal text-darkgray text-center mt-4">La satisfaction de nos clients est primordiale <br /></h4>

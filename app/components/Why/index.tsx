@@ -25,12 +25,12 @@ const Why = () => {
     return (
         <div id="about">
 
-            <div className='mx-auto max-w-7xl px-4 my-20 sm:py-20 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-4 my-20 sm:py-20 lg:px-8 bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-2'>
 
                     {/* COLUMN-1 */}
-                    <div className="lg:-ml-64">
-                        <Image src="/assets/why/iPad.png" alt="iPad-image" width={4000} height={900} />
+                    <div className="lg:-ml-64 lg:mr-12">
+                        <Image src="/assets/why/new.jpg" alt="image" width={3000} height={900} />
                     </div>
 
                     {/* COLUMN-2 */}

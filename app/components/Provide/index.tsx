@@ -38,7 +38,7 @@ const Provide = () => {
     return (
         <div id="services">
 
-            <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8'>
+            <div className='mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8 bg-black'>
                 <div className='grid grid-cols-1 lg:grid-cols-12 gap-8'>
 
                     {/* COLUMN-1 */}
@@ -54,7 +54,7 @@ const Provide = () => {
 
                     {/* COLUMN-2 */}
                     <div className='col-span-6 lg:col-span-5'>
-                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 lg:gap-x-40 px-10 py-12 bg-bluebg rounded-3xl'>
+                        <div className='grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 lg:gap-x-40 px-10 py-12 bg-midblue rounded-3xl'>
                             {Aboutdata.map((item, i) => (
                                 <div key={i} className='bg-white rounded-3xl lg:-ml-32 p-6 shadow-xl  hover:scale-110 '>
                                     <Image src={item.imgSrc} alt={item.imgSrc} width={64} height={64} className="mb-5" />

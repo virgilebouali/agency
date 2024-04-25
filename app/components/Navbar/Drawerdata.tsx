@@ -8,11 +8,10 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Services', href: '#services', current: false },
-  { name: 'About', href: '#about', current: false },
-  { name: 'Project', href: '#project', current: false },
-  { name: 'Help', href: '/', current: false },
+  { name: 'Nos services', href: '/', current: true },
+  { name: 'Nous', href: '#services', current: false },
+  { name: 'Études de cas', href: '#about', current: false },
+  { name: 'Projets', href: '#project', current: false },
 ]
 
 function classNames(...classes: string[]) {
@@ -38,12 +37,12 @@ const Data = () => {
                 {item.name}
               </Link>
             ))}
-            <div className="mt-4"></div>
+            <div className="mt-24"></div>
             <button className="bg-white w-full text-blue border border-lightblue font-medium py-2 px-4 rounded">
-              Sign In
+              Nous contacter
             </button>
             <button className="bg-lightblue w-full hover:bg-blue hover:text-white text-blue font-medium my-2 py-2 px-4 rounded">
-              Sign up
+              Devis gratuit
             </button>
           </div>
         </div>

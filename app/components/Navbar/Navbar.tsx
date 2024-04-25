@@ -31,7 +31,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = React.useState(false);
 
     return (
-        <Disclosure as="nav" className="navbar">
+        <Disclosure as="nav" className="navbar ">
             <>
                 <div className="mx-auto max-w-7xl px-6 lg:py-4 lg:px-8">
                     <div className="relative flex h-20 items-center justify-between">
@@ -42,13 +42,17 @@ const Navbar = () => {
                             <div className="flex flex-shrink-0 items-center">
                                 <Image
                                     className="block h-40  w-40 lg:hidden"
-                                    src={'/assets/logo/crafters.png'}
+                                    src={'/assets/logo/logo3.png'}
                                     alt="dsign-logo"
+                                    width={100}
+                                    height={100}
                                 />
                                 <Image
                                     className="hidden h-full w-56    lg:block"
                                     src={'/assets/logo/logo3.png'}
                                     alt="dsign-logo"
+                                    width={100}
+                                    height={100}
                                 />
                             </div>
 

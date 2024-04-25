@@ -6,18 +6,18 @@ import Why from './components/Why/index';
 import Network from './components/Network/index';
 import Clientsay from './components/Clientsay/index';
 import Newsletter from './components/Newsletter/Newsletter';
+import Pricing from './components/Pricing';
+import NewNav from './components/Navbar/NewNav';
 
 
 export default function Home() {
   return (
-    <main>
+    <main className="bg-black text-white">
       <Banner />
       <Companies />
       <Buyers />
-      <Provide />
+      <Pricing />
       <Why />
-      <Network />
-      <Clientsay />
       <Newsletter />
     </main>
   )
