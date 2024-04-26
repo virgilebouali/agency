@@ -5,17 +5,17 @@ import { IconHome, IconMessage, IconUser } from "@tabler/icons-react";
 export function NavBar() {
   const navItems = [
     {
-      name: "Home",
+      name: "Nos services",
       link: "/",
       icon: <IconHome className="h-4 w-4 text-white" />,
     },
     {
-      name: "About",
+      name: "Projets",
       link: "/about",
       icon: <IconUser className="h-4 w-4 text-white" />,
     },
     {
-      name: "Contact",
+      name: "Offres",
       link: "/contact",
       icon: (
         <IconMessage className="h-4 w-4 text-white" />
@@ -23,7 +23,7 @@ export function NavBar() {
     },
   ];
   return (
-    <div className="relative bg-black w-full">
+    <div className="relative bg-black w-full border-white">
       <FloatingNav navItems={navItems} />
     </div>
   );

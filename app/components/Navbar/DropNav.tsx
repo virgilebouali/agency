@@ -56,40 +56,9 @@ export function DropNav() {
   return (
     <NavigationMenu className="text-black items-center justify-center -mt-24">
       <NavigationMenuList>
+
         <NavigationMenuItem>
-          <NavigationMenuTrigger>Getting started</NavigationMenuTrigger>
-          <NavigationMenuContent>
-            <ul className="grid gap-3 p-4 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-              <li className="row-span-3">
-                <NavigationMenuLink asChild>
-                  <a
-                    className="flex h-full w-full select-none flex-col justify-end rounded-md bg-gradient-to-b from-muted/50 to-muted p-6 no-underline outline-none focus:shadow-md"
-                    href="/"
-                  >
-                    <div className="mb-2 mt-4 text-lg font-medium">
-                      shadcn/ui
-                    </div>
-                    <p className="text-sm leading-tight text-muted-foreground">
-                      Beautifully designed components built with Radix UI and
-                      Tailwind CSS.
-                    </p>
-                  </a>
-                </NavigationMenuLink>
-              </li>
-              <ListItem href="/docs" title="Introduction">
-                Re-usable components built using Radix UI and Tailwind CSS.
-              </ListItem>
-              <ListItem href="/docs/installation" title="Installation">
-                How to install dependencies and structure your app.
-              </ListItem>
-              <ListItem href="/docs/primitives/typography" title="Typography">
-                Styles for headings, paragraphs, lists...etc
-              </ListItem>
-            </ul>
-          </NavigationMenuContent>
-        </NavigationMenuItem>
-        <NavigationMenuItem>
-          <NavigationMenuTrigger>Components</NavigationMenuTrigger>
+          <NavigationMenuTrigger>Nos services</NavigationMenuTrigger>
           <NavigationMenuContent>
             <ul className="grid w-[400px] gap-3 p-4 md:w-[500px] md:grid-cols-2 lg:w-[600px] ">
               {components.map((component) => (
@@ -107,9 +76,26 @@ export function DropNav() {
         <NavigationMenuItem>
           <Link href="/docs" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
-              Documentation
+              Projets
             </NavigationMenuLink>
           </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+          <Link href="/docs" legacyBehavior passHref>
+            <NavigationMenuLink className={navigationMenuTriggerStyle()}>
+              Offres
+            </NavigationMenuLink>
+          </Link>
+        </NavigationMenuItem>
+        <NavigationMenuItem>
+   
+        <button className="p-[3px] relative">
+        <Link href="#_" className="relative inline-flex items-left justify-left p-4 px-5 py-2 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out rounded-xl shadow-xl group hover:ring-1 hover:ring-purple-500">
+<span className="absolute inset-0 w-full h-full bg-gradient-to-br from-midnightblue via-blue-500 to-pink-700"></span>
+<span className="absolute bottom-0 right-0 block w-64 h-64 mb-32 mr-4 transition duration-500 origin-bottom-left transform rotate-45 translate-x-24 bg-midnightblue rounded-full opacity-30 group-hover:rotate-90 ease"></span>
+<span className="relative text-white text-md">Prendez Rendez-Vous</span>
+</Link>
+</button>
         </NavigationMenuItem>
       </NavigationMenuList>
     </NavigationMenu>
