@@ -35,7 +35,6 @@ const Navbarin: React.FC = () => {
     }, [])
     return (
         <>
-            <Navbar />
         </>
     );
 }
