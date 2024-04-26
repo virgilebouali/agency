@@ -8,6 +8,8 @@ import Clientsay from './components/Clientsay/index';
 import Newsletter from './components/Newsletter/Newsletter';
 import Pricing from './components/Pricing';
 import NewNav from './components/Navbar/NewNav';
+import Divider from './components/ui/divider';
+import { Tooltip } from './components/Tooltip';
 
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
       <Banner />
       <Companies />
       <Buyers />
+      <Divider />
       <Pricing />
       <Why />
       <Newsletter />

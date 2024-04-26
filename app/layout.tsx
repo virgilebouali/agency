@@ -1,7 +1,8 @@
 import './globals.css';
+import './scrollbar.css'
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
-import { NavbarDemo } from './components/Navbar/NewNav';
+import { NavBar } from './components/Navbar/Navbar';
 
 
 export const metadata = {
@@ -17,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="">
-        <Navbar />
+        <NavBar />
         {children}
         <Footer />
       </body>
