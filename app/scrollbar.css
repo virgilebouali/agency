@@ -9,7 +9,7 @@
   /* Styler la poignée (thumb) */
   ::-webkit-scrollbar-thumb {
     /* Dégradé de violet */
-    background-image: linear-gradient(135deg, #510c8a, #8a0c51);
+    background-image: linear-gradient(135deg, #3a2ee4, #5351e6);
     height: 5px;
 
     /* Bordure arrondie */

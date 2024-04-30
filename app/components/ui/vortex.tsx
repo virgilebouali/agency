@@ -1,3 +1,5 @@
+"use client"
+
 import { cn } from "../../utils/cn";
 import React, { useEffect, useRef } from "react";
 import { createNoise3D } from "simplex-noise";
@@ -23,7 +25,7 @@ export const Vortex = (props: VortexProps) => {
   const particleCount = props.particleCount || 700;
   const particlePropCount = 9;
   const particlePropsLength = particleCount * particlePropCount;
-  const rangeY = props.rangeY || 100;
+  const rangeY = props.rangeY || 800;
   const baseTTL = 50;
   const rangeTTL = 150;
   const baseSpeed = props.baseSpeed || 0.0;
@@ -242,12 +244,12 @@ export const Vortex = (props: VortexProps) => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         ref={containerRef}
-        className="absolute h-full w-full inset-0 z-0 bg-transparent flex items-center justify-center"
+        className="absolute h-[600px] w-full inset-0 z-0 bg-transparent flex items-center justify-center"
       >
         <canvas ref={canvasRef}></canvas>
       </motion.div>
 
-      <div className={cn("relative z-10", props.className)}>
+      <div className={cn("relative z-10 h-[600px] ", props.className)}>
         {props.children}
       </div>
     </div>

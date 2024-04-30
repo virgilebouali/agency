@@ -7,13 +7,7 @@ export function WavyBackgroundDemo() {
   return (
     
     <WavyBackground className="max-w-4xl mx-auto pb-40">
-<Image
-                                    className="block size-auto -mt-[600px] -mb-56"
-                                    src={'/assets/logo/logo5.png'}
-                                    alt="dsign-logo"
-                                    width={1200}
-                                    height={1200}
-                                />
+
       <p className="text-2xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
       L&apos;agence Web & Web Marketing efficace et vraiment performante.      </p>
       <p className="text-base md:text-lg  text-white font-normal inter-var text-center mt-12">

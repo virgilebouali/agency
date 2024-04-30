@@ -104,10 +104,10 @@ export const HeroParallax = ({
 export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-10 md:py-40 px-4 w-full  left-0 top-0">
-      <h1 className="text-2xl md:text-7xl font-bold text-white opacity-100">
+      <h1 className="text-4xl md:text-7xl font-bold text-white opacity-100">
       Ils nous ont  <br /> confié leur <span className="text-blue-500">croissance</span> 
       </h1>
-      <p className="max-w-2xl text-base md:text-xl mt-8 text-neutral-200">
+      <p className="max-w-2xl text-base md:text-xl mt-8 text-white font-bold">
       Nous, en tant qu&apos;agence web, concevons des produits remarquables en utilisant les technologies et les cadres de travail les plus récents. Notre équipe est composée de développeurs et de designers passionnés qui excellent dans la création de produits exceptionnels.
       </p>
     </div>
