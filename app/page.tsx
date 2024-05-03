@@ -7,6 +7,7 @@ import Pricing from './components/Pricing';
 import Divider from './components/ui/divider';
 import MobileNav from './components/Navbar/MobileNav';
 import { LampDemo } from './components/ui/lamp';
+import Faq from './components/Faq';
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Divider />
       <Pricing />
       <Why />
+      <Faq />
       <Newsletter />
     </main>
   )

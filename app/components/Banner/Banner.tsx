@@ -14,7 +14,7 @@ const Banner = () => {
       <MainNav />
       <Hero />
       <div className="px-6 lg:px-8 bg-black">
-        <div className="mx-auto max-w-7xl pt-16 sm:pt-20 pb-20">
+        <div className="mx-auto max-w-7xl sm:pt-20 pb-20">
           <HeroParallaxDemo />
         </div>
       </div>

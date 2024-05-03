@@ -6,10 +6,9 @@ const Pricing = () => {
   return (
 
     <section className="relative"> {/* BG Image */}
-        <WavyBackground className=" pb-40 max-w-full">
 
  {/* Container */} <div className="mx-auto w-full max-w-7xl px-5 py-16 md:px-10 md:py-24 lg:py-32 mt-24"> {/* Component */} <div className="flex flex-col items-center"> {/* Heading Content */} <div className="mb-8 max-w-3xl text-center md:mb-12 lg:mb-16">
-            <h2 className="mb-4 mt-6 text-4xl font-bold text-white md:text-5xl">Faisons de votre site web une réussite</h2>
+            <h2 className="mb-4 mt-6 text-4xl font-bold text-white md:text-5xl">Faisons de votre site web une réussite 🚀</h2>
             <div className="mx-auto mt-4 max-w-[528px]">
               <p className="text-white">Découvrez nos formules de création de site web</p>
             </div>
@@ -113,7 +112,6 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-      </WavyBackground>
     </section>
   )
 }

@@ -47,9 +47,9 @@ const people = [
 ];
 
 export function Tooltip() {
-  return ( <div className="flex flex-col items-center justify-center">
-    <h3 className="mt-4 mb-4 text-2xl">Déjà + de  <span className="text-white font-bold"> 50 clients satisfaits</span> </h3>
-    <div className="flex flex-row items-center justify-center mb-10 w-full ">
+  return ( <div className="flex flex-col items-left justify-center ">
+    <h3 className="mt-4 mb-4 text-2xl font-bold text-left">Déjà + de  <span className="text-blue-500 font-bold"> 50 clients satisfaits</span>✅ </h3>
+    <div className="flex flex-row items-left mb-10 w-full">
        
       <AnimatedTooltip items={people} />
     </div>

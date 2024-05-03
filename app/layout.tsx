@@ -3,7 +3,9 @@ import './scrollbar.css'
 import Navbar from './components/Navbar/index';
 import Footer from './components/Footer/Footer';
 import { NavBar } from './components/Navbar/Navbar';
+import { Poppins } from 'next/font/google'
 
+const poppins = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700'] })
 
 export const metadata = {
   title: 'Crafters',
@@ -17,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className=" bg-black">
+      <body className={poppins.className}>
         <NavBar />
         {children}
         <Footer />
