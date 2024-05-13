@@ -32,7 +32,7 @@ const Faq = () => {
             <div className="h-0.5 w-5 bg-blue"></div>
           </div>
         </div>
-        <p className="mb-4">Vous pouvez obtenir un devis en nous contactant directement via notre formulaire de contact sur notre site web. Nous serons ravis d'évaluer votre projet et de vous fournir un devis personnalisé.</p>
+        <p className="mb-4">Vous pouvez obtenir un devis en nous contactant directement via notre formulaire de contact sur notre site web. Nous serons ravis d&apos;évaluer votre projet et de vous fournir un devis personnalisé.</p>
       </div>
       {/* FAQ Item */}
       <div className="mb-6 max-w-4xl border border-solid border-[#dfdfdf] bg-black p-8">
