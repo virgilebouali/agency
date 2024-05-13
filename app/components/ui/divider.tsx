@@ -2,7 +2,7 @@ import React from 'react';
 
 const Divider = () => {
   return (
-<div className=" bg-black w-full py-6 lg:py-16 -my-12">
+<div className=" bg-black w-full ">
       <div
         className="w-full h-px max-w-6xl mx-auto py-1"
         style={{
